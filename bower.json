@@ -1,0 +1,17 @@
+{
+  "name": "04-SanDiegoTopSpots",
+  "main": "index.js",
+  "homepage": "https://github.com/LennyCastaneda/04-SanDiegoTopSpots",
+  "authors": [
+    "Lenny Castaneda <lenny.castaneda@gmail.com>"
+  ],
+  "description": "'A San Diego top spots web app'",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
