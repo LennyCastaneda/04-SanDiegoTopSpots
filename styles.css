@@ -10,14 +10,10 @@ div.map {
 }
 
 #map {
-
         height: 50%;
         text-align: center;
+        margin-bottom: 40px;
       }
-
-#iframe-id {
-	margin-bottom: 10px;
-}
 
 /***********************************
 TABLE STYLES
@@ -35,13 +31,13 @@ table {
     width: 100%;
 }
 
-table.tbl-fixedheader {
+table.table-fixedheader {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;   
 }
 
-table.tbl-fixedheader>thead {   /*Gets tbl-fixedheader direct children*/
+table.table-fixedheader>thead {   /*Gets tbl-fixedheader direct children*/
     overflow-y: scroll;    
 }
 
@@ -49,8 +45,8 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-td, th, table.topTable, table.tbl-border {
-    border: 5px solid #ddddee;
+td, th, table.topSpotTable, table.table-bordered {
+    border: 3px solid #1c2f2f;
     text-align: left;
     padding: 8px;
 }
