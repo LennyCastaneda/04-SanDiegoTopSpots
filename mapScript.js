@@ -1,3 +1,5 @@
+//Created mapScript.js to separate from index.js to make it more readable...since there is separate JavaScript I can implement this code for other projects.
+//This code can be recycled for other similar uses.
 //Create an initialize Map function using the Google APi example from its website.
 function initMap() {
   //Setting the center location of the map and assigning it to myLatLng
