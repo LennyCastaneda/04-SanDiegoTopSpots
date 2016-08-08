@@ -1,0 +1,172 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'node-static' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'node-static', null ]
+7 verbose cache add spec node-static
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'node-static',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'node-static',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed node-static@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for node-static
+11 info addNameTag [ 'node-static', 'latest' ]
+12 silly mapToRegistry name node-static
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'node-static',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'node-static',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/node-static
+17 verbose addNameTag registry:https://registry.npmjs.org/node-static not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/node-static
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 5:32:30 PM
+21 verbose request id aed255257340ea02
+22 verbose etag "E8SYJDTUMXZGTLOOC1L8GE09L"
+23 http request GET https://registry.npmjs.org/node-static
+24 http 304 https://registry.npmjs.org/node-static
+25 verbose headers { date: 'Mon, 08 Aug 2016 00:32:30 GMT',
+25 verbose headers   via: '1.1 varnish',
+25 verbose headers   'cache-control': 'max-age=300',
+25 verbose headers   etag: '"E8SYJDTUMXZGTLOOC1L8GE09L"',
+25 verbose headers   age: '0',
+25 verbose headers   connection: 'keep-alive',
+25 verbose headers   'x-served-by': 'cache-dfw1831-DFW',
+25 verbose headers   'x-cache': 'MISS',
+25 verbose headers   'x-cache-hits': '0',
+25 verbose headers   'x-timer': 'S1470616350.237552,VS0,VE246',
+25 verbose headers   vary: 'Accept-Encoding' }
+26 silly get cb [ 304,
+26 silly get   { date: 'Mon, 08 Aug 2016 00:32:30 GMT',
+26 silly get     via: '1.1 varnish',
+26 silly get     'cache-control': 'max-age=300',
+26 silly get     etag: '"E8SYJDTUMXZGTLOOC1L8GE09L"',
+26 silly get     age: '0',
+26 silly get     connection: 'keep-alive',
+26 silly get     'x-served-by': 'cache-dfw1831-DFW',
+26 silly get     'x-cache': 'MISS',
+26 silly get     'x-cache-hits': '0',
+26 silly get     'x-timer': 'S1470616350.237552,VS0,VE246',
+26 silly get     vary: 'Accept-Encoding' } ]
+27 verbose etag https://registry.npmjs.org/node-static from cache
+28 verbose get saving node-static to /Users/the4thestate/.npm/registry.npmjs.org/node-static/.cache.json
+29 verbose correctMkdir /Users/the4thestate/.npm correctMkdir not in flight; initializing
+30 silly addNameTag next cb for node-static with tag latest
+31 silly addNamed node-static@0.7.8
+32 verbose addNamed "0.7.8" is a plain semver version for node-static
+33 silly cache afterAdd node-static@0.7.8
+34 verbose afterAdd /Users/the4thestate/.npm/node-static/0.7.8/package/package.json not in flight; writing
+35 verbose correctMkdir /Users/the4thestate/.npm correctMkdir not in flight; initializing
+36 verbose afterAdd /Users/the4thestate/.npm/node-static/0.7.8/package/package.json written
+37 silly install resolved [ { name: 'node-static',
+37 silly install resolved     description: 'simple, compliant file streaming module for node',
+37 silly install resolved     url: 'http://github.com/cloudhead/node-static',
+37 silly install resolved     keywords: [ 'http', 'static', 'file', 'server' ],
+37 silly install resolved     author: { name: 'Alexis Sellier', email: 'self@cloudhead.net' },
+37 silly install resolved     contributors: [ [Object], [Object] ],
+37 silly install resolved     repository:
+37 silly install resolved      { type: 'git',
+37 silly install resolved        url: 'git+ssh://git@github.com/cloudhead/node-static.git' },
+37 silly install resolved     main: './lib/node-static',
+37 silly install resolved     scripts: { test: 'vows --spec --isolate' },
+37 silly install resolved     bin: { static: 'bin/cli.js' },
+37 silly install resolved     license: 'MIT',
+37 silly install resolved     dependencies: { optimist: '>=0.3.4', colors: '>=0.6.0', mime: '>=1.2.9' },
+37 silly install resolved     devDependencies: { request: 'latest', vows: 'latest' },
+37 silly install resolved     version: '0.7.8',
+37 silly install resolved     engines: { node: '>= 0.4.1' },
+37 silly install resolved     bugs: { url: 'https://github.com/cloudhead/node-static/issues' },
+37 silly install resolved     homepage: 'https://github.com/cloudhead/node-static',
+37 silly install resolved     directories: { example: 'examples', test: 'test' },
+37 silly install resolved     gitHead: '219fc736f35945757bb1a6f71131744af795b022',
+37 silly install resolved     _id: 'node-static@0.7.8',
+37 silly install resolved     _shasum: '1bda27c8ef5aef33136784af897bc1a4d3c5b2ee',
+37 silly install resolved     _from: 'node-static@latest',
+37 silly install resolved     _npmVersion: '3.3.12',
+37 silly install resolved     _nodeVersion: '5.3.0',
+37 silly install resolved     _npmUser: { name: 'cloudhead', email: 'self@cloudhead.net' },
+37 silly install resolved     dist:
+37 silly install resolved      { shasum: '1bda27c8ef5aef33136784af897bc1a4d3c5b2ee',
+37 silly install resolved        tarball: 'https://registry.npmjs.org/node-static/-/node-static-0.7.8.tgz' },
+37 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+37 silly install resolved     _npmOperationalInternal:
+37 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+37 silly install resolved        tmp: 'tmp/node-static-0.7.8.tgz_1469553481312_0.4691374481189996' },
+37 silly install resolved     _resolved: 'https://registry.npmjs.org/node-static/-/node-static-0.7.8.tgz',
+37 silly install resolved     readme: 'ERROR: No README data found!' } ]
+38 info install node-static@0.7.8 into /usr/local/lib
+39 info installOne node-static@0.7.8
+40 verbose installOne of node-static to /usr/local/lib not in flight; installing
+41 verbose correctMkdir /Users/the4thestate/.npm/_locks correctMkdir not in flight; initializing
+42 verbose lock using /Users/the4thestate/.npm/_locks/node-static-bdc0099f99ada52d.lock for /usr/local/lib/node_modules/node-static
+43 silly install write writing node-static 0.7.8 to /usr/local/lib/node_modules/node-static
+44 verbose unbuild lib/node_modules/node-static
+45 info preuninstall node-static@0.7.8
+46 info uninstall node-static@0.7.8
+47 verbose unbuild rmStuff node-static@0.7.8 from /usr/local/lib/node_modules
+48 silly gentlyRm /usr/local/bin/static is being gently removed
+49 silly gentlyRm verifying /usr/local is an npm working directory
+50 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+51 silly gentlyRm deletion target /usr/local/bin/static is under /usr/local
+52 verbose gentlyRm vacuuming from /usr/local/bin/static up to /usr/local
+53 silly vacuum-fs removing /usr/local/bin/static
+54 silly vacuum-fs quitting because other entries in /usr/local/bin
+55 info postuninstall node-static@0.7.8
+56 silly gentlyRm /usr/local/lib/node_modules/node-static is being purged from base /usr/local
+57 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/node-static
+58 silly vacuum-fs purging /usr/local/lib/node_modules/node-static
+59 verbose unlock done using /Users/the4thestate/.npm/_locks/node-static-bdc0099f99ada52d.lock for /usr/local/lib/node_modules/node-static
+60 verbose stack Error: EACCES: permission denied, unlink '/usr/local/lib/node_modules/node-static/.npmignore'
+60 verbose stack     at Error (native)
+61 verbose cwd /Users/the4thestate/dev/04-SanDiegoTopSpots
+62 error Darwin 15.6.0
+63 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "node-static"
+64 error node v4.4.7
+65 error npm  v2.15.8
+66 error path /usr/local/lib/node_modules/node-static/.npmignore
+67 error code EACCES
+68 error errno -13
+69 error syscall unlink
+70 error Error: EACCES: permission denied, unlink '/usr/local/lib/node_modules/node-static/.npmignore'
+70 error     at Error (native)
+70 error  { [Error: EACCES: permission denied, unlink '/usr/local/lib/node_modules/node-static/.npmignore']
+70 error   errno: -13,
+70 error   code: 'EACCES',
+70 error   syscall: 'unlink',
+70 error   path: '/usr/local/lib/node_modules/node-static/.npmignore' }
+71 error Please try running this command again as root/Administrator.
+72 verbose exit [ -13, true ]
+73 verbose unbuild lib/node_modules/node-static
+74 info preuninstall node-static@0.7.8
+75 info uninstall node-static@0.7.8
+76 verbose unbuild rmStuff node-static@0.7.8 from /usr/local/lib/node_modules
+77 silly gentlyRm /usr/local/bin/static is being gently removed
+78 silly gentlyRm verifying /usr/local is an npm working directory
+79 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+80 silly gentlyRm deletion target /usr/local/bin/static is under /usr/local
+81 verbose gentlyRm vacuuming from /usr/local/bin/static up to /usr/local
+82 info postuninstall node-static@0.7.8
+83 silly gentlyRm /usr/local/lib/node_modules/node-static is being purged from base /usr/local
+84 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/node-static
+85 silly vacuum-fs purging /usr/local/lib/node_modules/node-static
+86 error error rolling back Error: EACCES: permission denied, unlink '/usr/local/lib/node_modules/node-static/.npmignore'
+86 error error rolling back     at Error (native)
+86 error error rolling back  { [Error: EACCES: permission denied, unlink '/usr/local/lib/node_modules/node-static/.npmignore']
+86 error error rolling back   errno: -13,
+86 error error rolling back   code: 'EACCES',
+86 error error rolling back   syscall: 'unlink',
+86 error error rolling back   path: '/usr/local/lib/node_modules/node-static/.npmignore' }

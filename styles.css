@@ -1,0 +1,88 @@
+/***********************************
+MAP STYLES
+***********************************/
+
+div.map {
+	text-align: center;
+	max-width: 100%, auto;
+	padding: 15%, 15%, 15%, 15%;
+	margin: 25px;
+}
+
+#map {
+
+        height: 50%;
+        text-align: center;
+      }
+
+#iframe-id {
+	margin-bottom: 10px;
+}
+
+/***********************************
+TABLE STYLES
+***********************************/
+
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.tbl-fixedheader {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;   
+}
+
+table.tbl-fixedheader>thead {   /*Gets tbl-fixedheader direct children*/
+    overflow-y: scroll;    
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td, th, table.topTable, table.tbl-border {
+    border: 5px solid #ddddee;
+    text-align: left;
+    padding: 8px;
+}
+
+/***********************************
+MEDIA QUIERIES
+***********************************/
+
+/* screen width sizes 640px or smaller  */
+@media (min-width: 640px)  {
+
+	div.map-canvas, .container {
+		max-width: 50%, auto;
+		padding: 0%, 0%, 0%, 0%;
+		margin: 0 auto;
+	}
+}
+
+/* screen width sizes 1240px or smaller */
+@media (min-width: 1240px)  {
+
+	div.map-canvas, .container {
+		max-width: 50%, auto;
+		padding: 0%, 0%, 0%, 0%;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
