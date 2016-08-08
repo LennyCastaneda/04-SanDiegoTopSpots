@@ -20,7 +20,7 @@ $(document).ready(function() {
 			protoObject.description = object.description;
 	
 			//Connect Latitude and Longitude to the clickable Google maps link
-			var link = $('<a class="center-block button btn btn-success .col-xs-12 .col-md-8" target="blank">Open in Google Maps</a>');
+			var link = $('<a class="center-block button btn btn-success" target="blank">Open in Google Maps</a>');
 
 			var googleMaps = "https://www.google.com/maps?q=";
 			//Taking the JSON object list table and looking inside the "location" property grabbing the first index containing the latitude value then going in index 2 of that location array and grabbing that longtitude value, contcatinating and adding those value pairs to googleMaps vairable.
@@ -39,8 +39,8 @@ $(document).ready(function() {
 			});
 			//Append entire itteration into table rows
 			tableBody.append(row);
-		});
+		}); //.each function interation.
 		//Create the table body with generated content.
 		$("thead").after(tableBody);
-	});
-});
+	}); //.getJSON function
+}); //document function
